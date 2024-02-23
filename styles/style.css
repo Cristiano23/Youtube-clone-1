@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+body {
+    background: #F9F9F9;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 95px;
+    background: #F9F9F9;
+
+    padding: 16px 16px;
+    border-bottom: 1px solid #e1e1e1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+    color: #4b4b4b;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.search-form input {
+    padding: 0.7rem 5.4rem;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+}
+
+.search-form .search-icon {
+    margin-left: -54px;
+    background: #e1e1e1;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    margin-top: 32px;
+}
+
+.box-img-big img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.box-text-post h3 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+
+.sub-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sub-menu h5 {
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.post-user-img {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+}
+
+.button {
+    background: #f9f9f9;
+    display: inline-block;
+    text-align: center;
+}
+
+.sub-menu .button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+}
+
+.sub-menu .join {
+    background-color: #CC0000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sub-menu .button, .join {
+    margin-left: 8px;
+}
+
+.likes, .share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-row {
+    display: flex;
+    gap: 8px;
+}
+
+.description-span {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.likes .share span {
+    display: flex;
+}
+
+.description-span, .description-text, .social-networks {
+    margin-top: 24px;
+}
+
+.description-span, .title {
+    font-weight: 600;
+    color: #1e1e1e;
+    margin-right: 16px;
+}
+
+.description-span, .Hashtag {
+    color: #1c06c3;
+}
+
+.social-networks {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.social-networks a {
+    text-decoration: none;
+    color: #1c06c3;
+}
+
+.social-networks span {
+    font-weight: 600;
+}
+
+.link-websites {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.link-websites a {
+    text-decoration: none;
+    color: #1c06c3;
+}
+
+.posts-right-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.posts-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+
+.posts-right h5 {
+    font-size: 14px;
+    height: 600;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.posts-right p {
+    font-size: 12px;
+    margin-top: 12px;
+    line-height: 1.5;
+    color: #4b4b4b;
+}
+
+.posts-right img {
+    width: 200px;
+    height: 100px;
+    border-radius: 2px;
+    margin-right: 16px;
+}
+
